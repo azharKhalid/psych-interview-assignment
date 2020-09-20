@@ -4,12 +4,12 @@ body {
   font-family: "Barlow", sans-serif;
 }
 
-/* #top-div {
+#top-div {
   width: 100%;
   background-image: url("../img/png/group-16.png");
   background-repeat: no-repeat;
   background-position: right;
-} */
+}
 .nav-item,
 .navTitle {
   font-family: Barlow;
@@ -560,6 +560,9 @@ nav {
   .productsWeOfferText {
     width: 90%;
   }
+  .textSize h3 {
+    font-size: 2.3rem;
+  }
   #productsSection img {
     display: none;
   }
@@ -605,7 +608,7 @@ nav {
     margin-left: -35px;
   }
   .buttonInCentre {
-    margin-left: 85px;
+    margin-left: 65px;
     margin-bottom: 1rem;
   }
   #trustedOrganisations {
@@ -619,10 +622,10 @@ nav {
     margin: 10px auto;
   }
   #stats img {
-    margin-left: 90px;
+    margin-left: 18%;
   }
   #customerStories img {
-    margin-left: 60px;
+    margin-left: 42%;
   }
   .backToTop {
     display: none;
@@ -635,5 +638,14 @@ nav {
   }
   .getStarted .dangerFilled {
     margin-left: 0px !important;
+  }
+  .text-right span {
+    margin-left: 2px;
+    font-size: 0.6rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    visibility: hidden;
   }
 }
