@@ -551,8 +551,10 @@ nav {
     margin-left: 1rem;
   }
   .mainDivRes {
-    margin-top: -6rem;
     padding: 15px;
+  }
+  #mainTitle {
+    margin-top: 3rem !important;
   }
   .mainDivResImage {
     display: none;
